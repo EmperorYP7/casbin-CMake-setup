@@ -18,7 +18,7 @@ include(FetchContent)
 FetchContent_Declare(
         casbin
         GIT_REPOSITORY https://github.com/casbin/casbin-cpp.git
-        GIT_TAG v1.37.0
+        GIT_TAG v1.50.1
 )
 
 set(CASBIN_BUILD_TEST OFF)            # If you don't need to build tests for casbin

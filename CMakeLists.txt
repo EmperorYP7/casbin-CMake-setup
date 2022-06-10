@@ -24,7 +24,7 @@ set(MY_SOURCES src/main.cpp)
 add_executable(CasbinClientTest ${MY_SOURCES})
 
 # Link the executable against casbin
-target_link_libraries(CasbinClientTest PRIVATE casbin)
+target_link_libraries(CasbinClientTest PRIVATE casbin nlohmann_json)
 
 # Add casbin's include to our executable's include directory
 set(MY_INCLUDE_DIR ${casbin_SOURCE_DIR}/include)
